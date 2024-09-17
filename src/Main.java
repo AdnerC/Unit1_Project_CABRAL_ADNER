@@ -35,9 +35,9 @@ public class Main {
         //here is where the output is formatted
         System.out.println();
         System.out.println("-------------------------------");// used df.format to round decimals
-        System.out.println("The total tip amount is $" + df.format(totalTipAmt));
-        System.out.println("The total bill including the tip is $" + df.format(totalBillWithTip));
-        System.out.println("The tip split between all the people in the party is $" + df.format(tipPerPerson)+" per person");
+        System.out.println("The total tip amount is $" + df.format(totalTipAmt)+".");
+        System.out.println("The total bill including the tip is $" + df.format(totalBillWithTip)+".");
+        System.out.println("The tip split between all the people in the party is $" + df.format(tipPerPerson)+" per person.");
         System.out.println("The bill split between all the people is $" + df.format(totalPerPerson)+ " per person.");
         System.out.println("-------------------------------");
     }
